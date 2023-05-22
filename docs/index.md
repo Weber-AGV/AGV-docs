@@ -4,9 +4,7 @@ This site covers information for CS 5300/6300 at Weber State University
 
 ## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
+* `terminator`
 * `mkdocs -h` - Print help message and exit.
 
 ## Project layout
