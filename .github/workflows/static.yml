@@ -40,8 +40,11 @@ jobs:
           path: '.'
       - name: Install mkdocs
         run: pip install mkdocs==1.4.3
+      - name: install gen-files  
         run: pip install mkdocs-gen-files
-        run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      # - name: 
+      #   run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: gh-deploy  
         run: mkdocs gh-deploy
       - name: Deploy to GitHub Pages
         id: deployment
