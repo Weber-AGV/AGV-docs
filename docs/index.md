@@ -1,6 +1,6 @@
 # Welcome to Autonomous Ground Vehicle Documents
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site covers information for CS 5300/6300 at Weber State University
 
 ## Commands
 
