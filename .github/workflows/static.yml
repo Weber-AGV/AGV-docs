@@ -39,7 +39,6 @@ jobs:
           # Upload entire repository
           path: '.'
       - name: Install mkdocs
-        uses: actions/setup-python@v2
         run: pip install mkdocs==1.4.3
         run: pip install mkdocs-gen-files
         run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
